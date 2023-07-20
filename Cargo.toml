@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+  "medic-check-asdf",
+]
+
+[workspace.dependencies]
+clap = { version = "4.1.8" }
+indoc = "2.0.1"
+medic-lib = "0.1"
